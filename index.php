@@ -2,8 +2,15 @@
 
 <?php
 
-include 'system/libs/Main.php';
-new Main();
+    $url = $_GET['url'];
+    $url = rtrim($url,'/');
+    $url = explode('/',$url);
+
+//include 'app/controllers/Test.php';
+//new Test();
+include 'app/controllers/'.$url[0].".php";
+    new $url[0]();
+
 
 ?>
 
