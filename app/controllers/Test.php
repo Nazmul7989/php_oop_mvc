@@ -1,13 +1,19 @@
 <?php
 
+include 'system/libs/ParentController.php';
 
-class Test
+class Test extends ParentController
 {
 
     public function __construct()
     {
-        echo "I am from Test controller";
+//        parent::__construct();
 
+    }
+
+    public function test($name)
+    {
+        echo 'My name is Md Nazmul '.$name;
     }
 
 }
