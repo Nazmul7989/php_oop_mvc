@@ -1,6 +1,5 @@
 <?php
 
-include 'system/libs/ParentController.php';
 
 class Test extends ParentController
 {
