@@ -44,10 +44,10 @@
     <hr>
 
     <?php
-        foreach ($data as $key){
-            echo $key['itemOne'] ."<br>";
-            echo $key['itemTwo'] ."<br>";
-            echo $key['itemThree'] ."<br>";
+        foreach ($categories as $category){
+            echo $category['itemOne'] ."<br>";
+            echo $category['itemTwo'] ."<br>";
+            echo $category['itemThree'] ."<br>";
         }
     ?>
 

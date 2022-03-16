@@ -17,7 +17,7 @@ class Index extends ParentController
     {
         $data = array();
         $categoryModel = $this->load->model('Category');
-        $data['catList'] = $categoryModel->allCategory();
+        $data['categories'] = $categoryModel->allCategory();
         $this->load->view('category',$data);
     }
 }

@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f114046b-bd38-45fc-a3de-b83010c5964b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/libs/Load.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/libs/Load.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647342064584</updated>
       <workItem from="1647342065711" duration="8031000" />
-      <workItem from="1647394616756" duration="7440000" />
+      <workItem from="1647394616756" duration="9079000" />
     </task>
     <servers />
   </component>

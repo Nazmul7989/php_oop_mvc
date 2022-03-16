@@ -5,7 +5,10 @@ class Load
 {
     public function __construct(){}
 
-    public function view($fileName,$data=null){
+    public function view($fileName,$data = false){
+        if ($data == true) {
+            extract($data);
+        }
         include 'app/views/'.$fileName.".php";
     }
 
