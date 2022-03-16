@@ -4,9 +4,11 @@
 class ParentController
 {
 
+    protected $load = array();
+
     public function __construct()
     {
-        echo "I am from parent controller";
+       $this->load = new Load();
     }
 
 }

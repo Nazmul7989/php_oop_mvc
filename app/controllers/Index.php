@@ -7,4 +7,9 @@ class Index extends ParentController
     {
         parent::__construct();
     }
+
+    public function home()
+    {
+        $this->load->view('home');
+    }
 }

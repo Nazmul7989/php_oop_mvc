@@ -1,8 +1,9 @@
-<?php include "inc/header.php"; ?>
+<?php //include "inc/header.php"; ?>
 
 <?php
 
 include 'system/libs/ParentController.php';
+include 'system/libs/Load.php';
 
     $url = isset($_GET['url'])? $_GET['url']: null;
 
@@ -29,13 +30,12 @@ include 'system/libs/ParentController.php';
 
     }else{
         include 'app/controllers/Index.php';
-        new Index();
+        $ctlr = new Index();
+        $ctlr->home();
+
     }
 
 
-
-
-    
 
 
 ?>
@@ -43,18 +43,4 @@ include 'system/libs/ParentController.php';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php include "inc/footer.php"; ?>
+<?php //include "inc/footer.php"; ?>
