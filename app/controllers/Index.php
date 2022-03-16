@@ -12,4 +12,12 @@ class Index extends ParentController
     {
         $this->load->view('home');
     }
+
+    public function category()
+    {
+        $data = array();
+        $categoryModel = $this->load->model('Category');
+        $data['catList'] = $categoryModel->allCategory();
+        $this->load->view('category',$data);
+    }
 }
