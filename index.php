@@ -4,6 +4,8 @@
 
 include 'system/libs/ParentController.php';
 include 'system/libs/Load.php';
+include 'system/libs/Database.php';
+include 'system/libs/MainModel.php';
 
     $url = isset($_GET['url'])? $_GET['url']: null;
 

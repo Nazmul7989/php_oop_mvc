@@ -1,23 +1,20 @@
 <?php
 
 
-class Category
+class Category extends MainModel
 {
+
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
     public function allCategory()
     {
-        return array(
-            array(
-                'itemOne' => 'Education',
-                'itemTwo' => 'Sports',
-                'itemThree' => 'Travel',
-            ),
-            array(
-                'itemOne' => 'PHP',
-                'itemTwo' => 'Laravel',
-                'itemThree' => 'Javascript',
-            )
-        );
+        $selectSql = "SELECT * FROM `categories`";
+        $runSelectSql = $this->db->query($selectSql);
+        $results = $runSelectSql->fetchAll();
+        return $results;
     }
 
 }

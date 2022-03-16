@@ -45,9 +45,8 @@
 
     <?php
         foreach ($categories as $category){
-            echo $category['itemOne'] ."<br>";
-            echo $category['itemTwo'] ."<br>";
-            echo $category['itemThree'] ."<br>";
+            echo $category['name'] ."<br>";
+
         }
     ?>
 
